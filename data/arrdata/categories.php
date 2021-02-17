@@ -5,7 +5,7 @@ $categories = [
 
     // #Тип. articles. #Группа 1. Обработка стекла
 
-    10100 => ['key' => 10100, 'group_key' => 1, 'pop' => 50, 'label_eng' => 'photoprint_on_glass', 'label' => 'fotopechat-na-stekle', 'name' => 'Фотопечать на стекле', 'icon' => '_img-fotopechat_v1.png', 'breaf' => 'Декорирование на стекле, стеклянные изделия с фотореалистичным изображением'],
+    10100 => ['key' => 10100, 'group_key' => 1, 'pop' => 50, 'label_eng' => 'photoprint_on_glass', 'label' => 'fotopechat-na-stekle', 'name' => 'Фотопечать по стеклу', 'icon' => '_img-fotopechat_v1.png', 'breaf' => 'Фотопечать по стеклу с помощью цветных красок, стеклянные изделия с фотореалистичным изображением'],
     // #10 совместно Стекло с фотопечатью
     10200 => ['key' => 10200, 'group_key' => 1, 'pop' => 0, 'label_eng' => 'glass_cutting', 'label' => 'rezka-stekla', 'name' => 'Резка стекла, зеркал', 'icon' => '_img-rezka_v1.png', 'breaf' => 'Профессиональная резка стекла по размеру и по проекту, цена'],
     // #16
@@ -14,9 +14,9 @@ $categories = [
     10400 => ['key' => 10400, 'group_key' => 1, 'pop' => 80, 'label_eng' => 'glass_matting', 'label' => 'matirovanie-stekla', 'name' => 'Матирование на стекле, зеркале', 'icon' => '_img-steklo-matovoe_v6.png', 'breaf' => 'Создание на стекле или зеркале матового эффекта или рисунка'],
     // #11 совместно с Стекло, зеркало матовое 
     // ## ссылки на Стекло сатинированное и Стекло матовое (скорее всего матовое стекло в продукции и есть сатинат, тк производится хим способом)
-    10500 => ['key' => 10500, 'group_key' => 1, 'pop' => 100, 'label_eng' => 'glass_facet_edge', 'label' => 'kromka-facet', 'name' => 'Создание кромки, фацета стекла', 'icon' => '_img-zerkalo-facet_v1.png', 'breaf' => 'Обработка фацета на фрезерном или полировочном оборудовании'],
+    10500 => ['key' => 10500, 'group_key' => 1, 'pop' => 100, 'label_eng' => 'glass_facet_edge', 'label' => 'kromka-facet', 'name' => 'Фацетирование стекла, зеркал', 'icon' => '_img-zerkalo-facet_v1.png', 'breaf' => 'Обработка фацета на фрезерном или полировочном оборудовании'],
     // #13 совместно Стекло, зеркало с фацетом
-    10600 => ['key' => 10600, 'group_key' => 1, 'pop' => 0, 'label_eng' => 'glass_gluing', 'label' => 'uf-skleika-stekla', 'name' => 'УФ-склейка стекол (ультрафиолет)', 'icon' => '_img-ufskleika_v1.png', 'breaf' => 'Склеивание стекол, приклеивание фурнитуры и декора, цена'],
+    10600 => ['key' => 10600, 'group_key' => 1, 'pop' => 0, 'label_eng' => 'glass_gluing', 'label' => 'uf-skleika-stekla', 'name' => 'УФ-склейка стекла', 'icon' => '_img-ufskleika_v1.png', 'breaf' => 'Склеивание стекол, приклеивание фурнитуры и декора, цена'],
     // #17 
     10700 => ['key' => 10700, 'group_key' => 1, 'pop' => 0, 'label_eng' => 'glass_hardening', 'label' => 'zakalka-stekla', 'name' => 'Закаливание стекла', 'icon' => '_img-steklo_v4.png', 'breaf' => 'Выполняем закаливание стекла'],
     // #12 совместно с Стекло закаленное
@@ -24,13 +24,13 @@ $categories = [
     // #14 совместно с Стекло цветное, ##Ссылки из статей Листового стекла цветное
     // 10900 => ['key' => 10900, 'group_key' => 1, 'pop' => 0, 'label_eng' => 'glass_toning', 'label' => 'tonirovanie-zerkala', 'name' => 'Тонирование зеркала', 'icon' => '_img-steklo-pokraska_v1.png', 'breaf' => 'Изготовление зеркал с пленками из серебра, золота, свинца, хрома, Al'],
     // #15 совместно с Зеркало цветное, обычное ##Скорее всего тонирование зеркала не нужно, такие зеркала должны производится на заводе с готовой пленкой отражающей
-    11000 => ['key' => 11000, 'group_key' => 1, 'pop' => 0, 'label_eng' => 'glass_lamination', 'label' => 'laminirovanie-stekol', 'name' => 'Ламинирование стекол', 'icon' => 'laminirovanie-stekol.jpg', 'breaf' => 'Изготовление триплекса из нескольких слоев стекол'],
+    11000 => ['key' => 11000, 'group_key' => 1, 'pop' => 0, 'label_eng' => 'glass_lamination', 'label' => 'laminirovanie-stekol', 'name' => 'Изготовление триплекса', 'icon' => 'laminirovanie-stekol.jpg', 'breaf' => 'Изготовление триплекса из нескольких слоев стекол, ламинирования стекол'],
     // ## совместно с Ламинированное стекло, псевдоним Триплексование
 
     
     // #Тип. articles. #Группа 2. Стеклоконструкции и монтаж
 
-    20100 => ['key' => 20100, 'group_key' => 2, 'pop' => 110, 'label_eng' => 'glass_kitchen_apron', 'label' => 'kuhonnye-fartuki-iz-stekla', 'name' => 'Кухонные фартуки из стекла', 'icon' => '_img-fartuk_v4.png', 'breaf' => 'Изготовление фартука стеклянного с фотопечатью, рисунком, витражом'],
+    20100 => ['key' => 20100, 'group_key' => 2, 'pop' => 110, 'label_eng' => 'glass_kitchen_apron', 'label' => 'kuhonnye-fartuki-iz-stekla', 'name' => 'Кухонные фартуки, Скинали', 'icon' => '_img-fartuk_v4.png', 'breaf' => 'Изготовление фартука стеклянного с фотопечатью, рисунком, витражом'],
     // #7 Добавить ссылку на фотопечать на стекле
     20200 => ['key' => 20200, 'group_key' => 2, 'pop' => 90, 'label_eng' => 'glasscanvas', 'label' => 'fotopechat-steklo-panno', 'name' => 'Стеновые панно из стекла', 'icon' => '_img-vitragi_v41.png', 'breaf' => 'Декорирование стен стеклами, картины из стекла с фотореалистичным изображением'],
     // #10 совместно с Стекло с фотопечатью, Добавить ссылку на фотопечать на стекле
