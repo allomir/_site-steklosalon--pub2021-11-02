@@ -107,7 +107,7 @@ $categories = [
     50300 => ['key' => 50300, 'group_key' => 4, 'pop' => 0, 'label_eng' => 'glass_normal', 'label' => 'steklo-obychnoe-osvetlennoe', 'name' => 'Стекло обычное, осветленное', 'icon' => 'steklo-obychnoe-osvetlennoe(3).jpg', 'breaf' => 'Прозрачные стекла обычные и осветленные. Подбор по каталогам или образцам. Резка в размер'],
     // 50400 => ['key' => 50400, 'group_key' => 4, 'pop' => 0, 'label_eng' => '', 'label' => '', 'name' => 'Стекло цветное Lacobel', 'icon' => '', 'breaf' => ''],
         // #14
-    50500 => ['key' => 50500, 'group_key' => 4, 'pop' => 60, 'label_eng' => 'glass_toned_panibel', 'label' => 'steklo-tonirovannoe-panibel', 'name' => 'Стекло цветное Panibel', 'icon' => 'steklo-tonirovannoe-panibel.png', 'breaf' => 'Стекло цветное тонированное Panibel, Россия. Подбор по каталогам или образцам. Резка в размер'],
+    50500 => ['key' => 50500, 'group_key' => 4, 'pop' => 60, 'label_eng' => 'glass_toned_panibel', 'label' => 'steklo-tonirovannoe-planibel', 'name' => 'Стекло цветное Planibel', 'icon' => 'steklo-tonirovannoe-panibel.png', 'breaf' => 'Стекло цветное тонированное Planibel, Россия. Подбор по каталогам или образцам. Резка в размер'],
         // #15
     50700 => ['key' => 50700, 'group_key' => 4, 'pop' => 0, 'label_eng' => 'glasspan', 'label' => 'steklo-tsvetnoe-glasspan', 'name' => 'Стекло цветное glasspan', 'icon' => 'steklo-tsvetnoe-glasspan.jpg', 'breaf' => 'Стекло цветное Glasspan с узорами и вкроплениямия, Россия. Подбор по каталогам или образцам. Резка в размер'],
     // 50800 => ['key' => 50800, 'group_key' => 4, 'pop' => 0, 'label_eng' => '', 'label' => '', 'name' => 'Стекло ламинированное (триплекс) (бренд)', 'icon' => '', 'breaf' => ''],
