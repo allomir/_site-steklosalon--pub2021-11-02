@@ -142,10 +142,10 @@ $navmain = (new Navmain)->getNammain();
                                                     <div class="unit-left"><span class="icon fa fa-phone"></span></div>
                                                     <div class="unit-body">
                                                         <p>
-                                                            <span>Офис: &nbsp;&nbsp;&nbsp;</span><a class="link-phone"><?= $companyInfo['tel'] ?></a>
+                                                            <span>Офис: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><a class="link-phone"><?= $companyInfo['tel'] ?></a>
                                                         </p>
                                                         <p>
-                                                            <span>Мастер: </span><a class="link-phone"><?= $companyInfo['tel2'] ?></a>
+                                                            <span>Менеджер: </span><a class="link-phone"><?= $companyInfo['tel2'] ?></a>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -320,8 +320,10 @@ $navmain = (new Navmain)->getNammain();
                                             <div class="unit">
                                                 <div class="unit-left"><span class="icon fa fa-phone"></span></div>
                                                 <div class="unit-body">
-                                                    <a class="link-phone" href="tel:#"><?= $companyInfo['tel']?></a>
-                                                    <br /><a class="link-phone" href="tel:#"><?= $companyInfo['tel2']?></a>
+                                                    <?php $tels = array_values($companyInfo['tels']);?>
+                                                    <?php for ($i = 0; $i <= (count($tels) - 1) && $i < 4; $i++) : ?>
+                                                    <a class="link-phone" href="tel:#"><?= $tels[$i] ?></a><br />
+                                                    <?php endfor;?>
                                                 </div>
                                             </div>
                                         </li>
