@@ -33,8 +33,6 @@ $this->registerMetaTag(['name' => 'description', 'content' => $companyDesc], 'de
                         <?php foreach($contacts['tels'] as $managerName => $tel) : ?>
                             <p class="box-contacts-link"><?= $managerName ?>: <a><?= $tel?></a></p>
                         <?php endforeach;?>
-                        <div class="box-contacts-icon fa fa-envelope"></div>
-                        <p class="box-contacts-link"><a><?= $contacts['email']?></a></p>
                     </div>
                 </article>
             </div>
@@ -43,6 +41,8 @@ $this->registerMetaTag(['name' => 'description', 'content' => $companyDesc], 'de
                     <div class="box-contacts-body">
                         <div class="box-contacts-icon fa fa-location-arrow"></div>
                         <p class="box-contacts-link">Адрес: <a><?= $contacts['address']?></a></p>
+                        <div class="box-contacts-icon fa fa-envelope"></div>
+                        <p class="box-contacts-link"><a><?= $contacts['email']?></a></p>
                     </div>
                 </article>
             </div>
